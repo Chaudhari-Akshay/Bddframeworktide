@@ -98,7 +98,7 @@ public class TC001 extends Base {
 	   lp.Loginbtn2();
 	   driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 	   log.info("Click on Login");
-//	screenshots.getScreenshot(driver, "Login");
+
 	  
 	}
 	@AfterStep
