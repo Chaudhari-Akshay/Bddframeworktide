@@ -12,7 +12,6 @@ import io.cucumber.junit.CucumberOptions;
 		glue="StepDefinations",
 		monochrome=true,
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
-		
 		)
 public class TestRun {
 
